@@ -219,4 +219,4 @@ print("Walking" if prediction[0] == 0 else "Running")
 
 ---
 
-*Built with ❤️ using Python + Scikit-learn*
+*Built with using Python + Scikit-learn*
