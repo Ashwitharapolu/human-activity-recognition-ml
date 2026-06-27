@@ -24,6 +24,14 @@ This project builds a **Human Activity Recognition (HAR)** system that classifie
 
 ---
 
+# Human Activity Recognition using Machine Learning & MLP Neural Networks
+
+🚀 Live Demo:
+https://human-activity-recognition-ml-z9nsdr5pxtn2alnqww977n.streamlit.app
+
+📊 Accuracy: 99.24%
+
+
 ## 📊 Dataset Features
 
 | Feature | Description |
