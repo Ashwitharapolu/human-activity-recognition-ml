@@ -46,6 +46,17 @@ This project builds a **Human Activity Recognition (HAR)** system that classifie
 
 ## 🏗️ Project Pipeline
 
+**Raw Sensor Data (88,588 rows)**
+→ Exploratory Data Analysis
+→ Feature Engineering (acc_magnitude + gyro_magnitude)
+→ Feature Selection (t-test + Random Forest Importance)
+→ Train-Test Split (80/20 Stratified)
+→ Feature Scaling (StandardScaler)
+→ Model Training (5 Models)
+→ Hyperparameter Tuning (GridSearchCV)
+→ Cross Validation (2-Fold)
+→ ROC-AUC Evaluation
+→ Best Model Saved (.pkl) + Deployed on Streamlit ✅
 ---
 
 ## 🤖 Model Results
@@ -78,6 +89,13 @@ This project builds a **Human Activity Recognition (HAR)** system that classifie
 
 ## 📈 Cross Validation Results
 
+| Metric | Value |
+|--------|-------|
+| CV Fold 1 | 98.86% |
+| CV Fold 2 | 98.94% |
+| **Mean CV Accuracy** | **98.90%** |
+| Standard Deviation | 0.04% |
+
 Very low standard deviation confirms the model is **stable and not overfitting.**
 
 ---
@@ -100,6 +118,16 @@ Very low standard deviation confirms the model is **stable and not overfitting.*
 
 ## 📁 Project Structure
 
+| File | Description |
+|------|-------------|
+| `human_activity_recognition.ipynb` | Complete analysis notebook |
+| `app.py` | Streamlit web app |
+| `walkrun.csv` | Dataset |
+| `walkrun_best_model.pkl` | Saved MLP model |
+| `scaler.pkl` | Saved StandardScaler |
+| `cm_best_model.png` | Confusion matrix plot |
+| `requirements.txt` | Dependencies |
+| `README.md` | This file |
 ---
 
 ## 🚀 How to Run Locally
