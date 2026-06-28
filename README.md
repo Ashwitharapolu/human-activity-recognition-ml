@@ -46,17 +46,18 @@ This project builds a **Human Activity Recognition (HAR)** system that classifie
 
 ## 🏗️ Project Pipeline
 
-**Raw Sensor Data (88,588 rows)**
-→ Exploratory Data Analysis
-→ Feature Engineering (acc_magnitude + gyro_magnitude)
-→ Feature Selection (t-test + Random Forest Importance)
-→ Train-Test Split (80/20 Stratified)
-→ Feature Scaling (StandardScaler)
-→ Model Training (5 Models)
-→ Hyperparameter Tuning (GridSearchCV)
-→ Cross Validation (2-Fold)
-→ ROC-AUC Evaluation
-→ Best Model Saved (.pkl) + Deployed on Streamlit ✅
+| Step | Process |
+|------|---------|
+| 1️⃣ | Raw Sensor Data — 88,588 rows |
+| 2️⃣ | Exploratory Data Analysis |
+| 3️⃣ | Feature Engineering — acc_magnitude + gyro_magnitude |
+| 4️⃣ | Feature Selection — t-test + Random Forest Importance |
+| 5️⃣ | Train-Test Split — 80/20 Stratified |
+| 6️⃣ | Feature Scaling — StandardScaler |
+| 7️⃣ | Model Training — 5 Models compared |
+| 8️⃣ | Hyperparameter Tuning — GridSearchCV |
+| 9️⃣ | Cross Validation — 2-Fold |
+| 🔟 | Best Model Saved + Deployed on Streamlit ✅ |
 ---
 
 ## 🤖 Model Results
